@@ -72,7 +72,7 @@ export const Location = () => {
           ))}
       </select>
     </div>
-    {city && <p>You Selected <strong>{city}</strong>, {state}, {country}</p>}
+    {city && <p>You selected <strong>{city}</strong>, {state}, {country}</p>}
     </div>
   );
 };
